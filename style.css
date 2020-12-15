@@ -1,0 +1,50 @@
+h1 {
+    color: #FF69B4;
+    border: solid;
+    margin-left: 50px;
+}
+
+.header {
+    border: solid;
+}
+
+.header{
+    background-color: #87CEFA;
+    display: flex;
+    justify-content: space-between;
+}
+
+.snehasOrigami{
+
+    background-color: #4169E1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.socialMedia{
+
+    background-color:#EE82EE
+    display flex;
+    justify-content: flex-end;
+}
+h2,p{
+    text-align: center;
+    background-color: 	#DCDCDC ;
+    color: 	#000000;
+}
+.origami{
+    position: relative;
+}
+.origami p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity:0
+}
+.origami:hover p{
+opacity:1
+}
+
+.origami:hover img {
+opacity: 0.03;
+}
